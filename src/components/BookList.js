@@ -45,8 +45,7 @@ class BookList extends React.Component {
 
                       <button
                         type="button"
-                        className="btn btn-sm btn-info"
-                        style={{ margin: "10px" }}
+                        className="btn btn-sm btn-warning m-2"
                         onClick={changeTheme}
                       >
                         Change Theme
