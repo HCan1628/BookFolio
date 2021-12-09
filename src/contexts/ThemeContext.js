@@ -1,7 +1,7 @@
 import React from "react";
 
 export const ThemeContext = React.createContext();
-
+//with class comp.
 class ThemeContextProvider extends React.Component {
   state = {
     isDarkTheme: true,
